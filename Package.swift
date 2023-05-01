@@ -3,13 +3,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "AnyValue",
-    products: [
-        .library(name: "AnyValue", targets: ["AnyValue"]),
-    ],
-    dependencies: [],
-    targets: [
-        .target(name: "AnyValue", dependencies: []),
-        .testTarget(name: "AnyValueTests", dependencies: ["AnyValue"]),
-    ]
+  name: "swift-any-value",
+  products: [
+    .library(name: "AnyValue", targets: ["AnyValue"])
+  ],
+  dependencies: [],
+  targets: [
+    .target(name: "AnyValue", dependencies: []),
+    .testTarget(name: "AnyValueTests", dependencies: ["AnyValue"]),
+  ]
 )
